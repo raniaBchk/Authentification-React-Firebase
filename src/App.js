@@ -21,7 +21,7 @@ function App() {
       style={{ minHeight: "100vh" }}
     >
     <div className="w-100" style={{ maxWidth: "400px" }}>
-    <BrowserRouter>
+    <BrowserRouter basename="/Authentification-React-Firebase">
     
     <Routes>
     <Route path='/' element={
